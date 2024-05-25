@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body
+
+{
+
+    font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+
+    --dark-primary: #080108;
+    --font-primary: rgb(120, 175, 226);
+
+}
+
+
+
+header{
+    background-color: rgb(12, 14, 13);
+    padding:10px 20px;
+    color: var(--font-primary);
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+
+
+
+.button1:hover{
+
+    background-color: var(--font-primary);
+    color: var(--dark-primary);
+    border-radius: 5px;
+    padding: 10px 20px;
+        }
+
+ul
+{
+
+    display: flex;
+text-decoration: none;
+list-style: none;
+
+}
+
+
+header ul li {
+    margin-right: 30px;
+    
+}
+
+ul li a {
+
+    color: var(--font-primary);
+    text-decoration: none;
+
+}
+
+
+
+/*   Hero image   */
+
+ 
+section.hero-section {
+
+background-color: var(--dark-primary);
+color: aliceblue ;
+display: flex;
+align-items: center;
+padding: 70px 21px 70px 158px;
+}
+
+
+.hero-section-title{
+
+font-size: 48px;    
+font-weight: 800;
+
+}
+
+.hero-section-desc{
+
+color:aqua;
+color: #78afe2;
+
+}
+
+.social-icons{
+
+margin: 15px 15px 15px 0px;
+
+}
+
+.social-icons li{
+
+    margin-right: 15px;
+}
+
+.social-icons li :hover {
+
+    color:white;
+}
+
+.social-icons li > a {
+
+text-decoration: none;
+
+
+}
+
+
+/*  buttons  */
+
+.btn{
+padding: 10px 15px;
+border-radius: 2px;
+}
+
+
+/* button blue*/
+
+.btn.btn-primary
+{
+
+    background-color: #78afe2;
+    font-weight: 600;
+    color: aliceblue;
+    outline: none;
+}
+
+.btn.btn-primary:hover{
+
+    background-color: var(--dark-primary);
+}
+
+
+.btn.btn-secondary{
+
+background-color: var(--dark-primary);
+color:aliceblue;
+outline-color: var(--dark-primary);
+
+}
+
+header button{
+
+    background-color: var(--dark-primary);
+    color: var(--font-primary);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin:10px ;
+    }
+
+.hero-buttons button {
+
+    background-color: var(--dark-primary);
+    color: var(--font-primary);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin:10px ;
+
+}
+
