@@ -19,7 +19,8 @@ body
 :root {
 
     --dark-primary: #080108;
-    --font-primary: rgb(120, 175, 226);
+    --font-primary: #12bdff;
+    --button-primary:#57a2e8;
 
 }
 
@@ -48,10 +49,10 @@ header{
     padding: 10px 20px;
         }
 
-ul
+ header ul
 {
 
-    display: flex;
+display: flex;
 text-decoration: none;
 list-style: none;
 
@@ -63,7 +64,7 @@ header ul li {
     
 }
 
-ul li a {
+header ul li a {
 
     color: var(--font-primary);
     text-decoration: none;
@@ -99,9 +100,13 @@ color: #78afe2;
 
 }
 
+
+
 .social-icons{
 
 margin: 15px 15px 15px 0px;
+display: flex;
+list-style: none;
 
 }
 
@@ -118,6 +123,7 @@ margin: 15px 15px 15px 0px;
 .social-icons li > a {
 
 text-decoration: none;
+color: var(--font-primary);
 
 
 }
@@ -136,7 +142,7 @@ border-radius: 2px;
 .btn.btn-primary
 {
 
-    background-color: #78afe2;
+    background-color:var(--font-primary);
     font-weight: 600;
     color: aliceblue;
     outline: none;
@@ -171,7 +177,98 @@ header button{
     color: var(--font-primary);
     border-radius: 5px;
     padding: 10px 20px;
-    margin:10px ;
+    margin:15px ;
+  
+
+}
+
+
+.about-section{
+
+    padding:30px;
+    
+    display: flex;
+    background-color: #22282f;
+    align-items: center;
+    justify-content: center
+}
+
+
+
+.about-section img{
+
+    width: 400px;
+   padding: 0px;
+   justify-content: center;
+   
+}
+
+.about-section h4{
+
+   color: white;
+   font-size: 30px;
+   font-weight: 800;
+
+}
+
+
+.about-section ul
+{
+    margin: 20px 0px;
+    justify-content: center;
+}
+
+.about-section ul li 
+{
+   /* margin: 5px 10px 5px 5px; */
+   margin-bottom: 10px;
+    justify-content: center;
+    list-style: none;
+    color: white;
+}
+
+.about-section--desc{
+
+    max-width: 450px;
+    margin: 10px 10px;
+
+}
+
+.about-section--desc{
+
+    margin-bottom: 8px;
+
+}
+
+.about-section--desc h4 > span {
+
+   color:var(--font-primary);
+
+}
+
+.about-section--desc ul li{
+
+    margin-bottom: 10px;
+    color: grey;
+
+}
+
+.about-section--desc ul li a:hover{
+
+    color: grey;
+
+}
+
+.about-section--desc ul li a{
+
+    text-decoration: none;
+    color: grey;
+
+}
+
+.about-section--desc li > strong{
+
+color: white;
 
 }
 
