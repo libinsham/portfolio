@@ -334,16 +334,12 @@ width: 40px;
     }
 
     
-    .work-section-box__icon{
-
-      
-
-    }
+   
 
     .work-section-items{
 
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 
     }
 
