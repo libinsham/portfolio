@@ -45,6 +45,9 @@ header{
     text-decoration: none;
     align-items: center;
     font-weight: 600;
+    position:fixed ;
+width: 100%;
+margin-bottom: 20px;
 
 }
 
@@ -92,7 +95,7 @@ background-color: var(--dark-primary);
 color: aliceblue ;
 display: flex;
 align-items: center;
-padding: 70px 21px 70px 158px;
+padding: 150px 21px 70px 158px;
 }
 
 
