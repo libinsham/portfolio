@@ -20,6 +20,12 @@ body
     font-family: "Nunito Sans", sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
 :root {
 
     --dark-primary: #080108;
@@ -292,7 +298,6 @@ text-align: center;
 .work-section-box{
 background-color: #22282f;
 padding: 30px;
-max-width: 33.33%;
 text-align: left;
 border-radius: 10px;
 margin: 10px;
@@ -361,7 +366,7 @@ width: 40px;
 .contact-section{
 
 background-color: #252425;
-padding: 20px;
+padding: 15px;
 justify-content: center;
 text-align: center;
 color:white;
@@ -422,6 +427,85 @@ text-align: center;
 
 
 footer h4 span {
+    color: var(--font-primary)
+}
 
-color: var(--font-primary)
+
+
+/* Media Queries */
+
+
+@media only screen and (max-width:600px) {
+
+    header{
+
+    flex-direction: column;
+}
+  
+header > * {
+
+    margin-bottom: 10px;
+
+}
+
+section.hero-section{
+
+ flex-direction: column;
+ padding: 10px 10px 20px 30px;
+ 
+}
+
+section.about-section{
+
+    flex-direction: column;
+
+}
+
+.about-section--desc{
+
+    margin-left:0;
+    margin-top: 20px;
+}
+
+
+/*   */
+
+.work-section-items
+{
+flex-direction: column;
+margin-bottom: 20px;
+
+}
+
+.work-section{
+
+    padding: 40px;
+}
+
+.work-section-box{
+
+margin-bottom: 20px;
+width: 100%;
+
+}
+
+.section.contact-section{
+
+flex-direction: column;
+padding: 15px;
+
+}
+
+.contact-section{
+
+    padding: 10px;
+    padding-bottom: 25px ;
+}
+
+.footer{
+
+    margin-top: 25px;
+
+}
+
 }
